@@ -156,7 +156,7 @@
                                 <rect key="frame" x="97" y="101" width="220" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Migraines"/>
                                 <connections>
                                     <segue destination="FmC-S5-zVd" kind="presentation" id="cpq-PN-dtB"/>
                                 </connections>
@@ -165,7 +165,7 @@
                                 <rect key="frame" x="97" y="231" width="220" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Headaches"/>
                                 <connections>
                                     <segue destination="XFq-5B-H39" kind="presentation" id="Yl7-fP-b2v"/>
                                 </connections>
@@ -174,7 +174,7 @@
                                 <rect key="frame" x="97" y="403" width="220" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Backache"/>
                                 <connections>
                                     <segue destination="8Ff-fi-eKW" kind="presentation" id="DcX-79-rTv"/>
                                 </connections>
@@ -183,7 +183,7 @@
                                 <rect key="frame" x="97" y="560" width="220" height="112"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Cramps"/>
                                 <connections>
                                     <segue destination="6Jz-x6-SCb" kind="presentation" id="mMI-33-1U5"/>
                                 </connections>
@@ -444,13 +444,21 @@
                     <view key="view" contentMode="scaleToFill" id="0J0-0w-aPP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anu-b7-rTC">
+                                <rect key="frame" x="20" y="44" width="227" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="9ax-NN-uzX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ng3-Pu-Kf3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2551" y="826"/>
+            <point key="canvasLocation" x="2550.7246376811595" y="825.66964285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="33h-jp-kzo">
