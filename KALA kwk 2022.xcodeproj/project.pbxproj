@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD4C4507286C9B780013A877 /* FYIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C4506286C9B780013A877 /* FYIViewController.swift */; };
 		BDD19A76286B90EF00E6E6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A75286B90EF00E6E6C1 /* AppDelegate.swift */; };
 		BDD19A78286B90EF00E6E6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */; };
 		BDD19A7A286B90EF00E6E6C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A79286B90EF00E6E6C1 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD4C4506286C9B780013A877 /* FYIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYIViewController.swift; sourceTree = "<group>"; };
 		BDD19A72286B90EF00E6E6C1 /* KALA kwk 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KALA kwk 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD19A75286B90EF00E6E6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */,
 				BDD19A79286B90EF00E6E6C1 /* ViewController.swift */,
 				BDD19A7B286B90EF00E6E6C1 /* Main.storyboard */,
+				BD4C4506286C9B780013A877 /* FYIViewController.swift */,
 				BDD19A81286B90F000E6E6C1 /* Assets.xcassets */,
 				BDD19A83286B90F000E6E6C1 /* LaunchScreen.storyboard */,
 				BDD19A86286B90F000E6E6C1 /* Info.plist */,
@@ -144,6 +147,7 @@
 				BDD19A80286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld in Sources */,
 				BDD19A7A286B90EF00E6E6C1 /* ViewController.swift in Sources */,
 				BDD19A76286B90EF00E6E6C1 /* AppDelegate.swift in Sources */,
+				BD4C4507286C9B780013A877 /* FYIViewController.swift in Sources */,
 				BDD19A78286B90EF00E6E6C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
