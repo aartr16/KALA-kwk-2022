@@ -297,10 +297,10 @@
             </objects>
             <point key="canvasLocation" x="1186.9565217391305" y="75"/>
         </scene>
-        <!--View Controller-->
+        <!--New View Controller-->
         <scene sceneID="0Da-tC-Bo7">
             <objects>
-                <viewController id="aGf-83-y6H" customClass="ViewController" customModule="KALA_kwk_2022" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aGf-83-y6H" customClass="NewViewController" customModule="KALA_kwk_2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vEb-GQ-6Au">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -372,7 +372,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="anL-Zq-gt6">
-                                <rect key="frame" x="28" y="232" width="361" height="523"/>
+                                <rect key="frame" x="28" y="232" width="361" height="428"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Calistoga-Regular" family="Calistoga" pointSize="0.0"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -413,10 +413,22 @@
                                     <segue destination="xsf-jH-219" kind="presentation" modalPresentationStyle="fullScreen" id="0lu-Fi-mC4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbM-MA-DLK">
+                                <rect key="frame" x="174" y="707" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="save:" destination="aGf-83-y6H" eventType="touchUpInside" id="QhB-ko-AbG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BVN-59-ucq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="notes" destination="anL-Zq-gt6" id="hMm-SW-Jbx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qng-80-mPG" sceneMemberID="firstResponder"/>
             </objects>
@@ -699,10 +711,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gn1-Nt-I7N"/>
-        <segue reference="gO9-Hw-MLV"/>
-        <segue reference="2km-Dx-7ud"/>
-        <segue reference="tnS-9A-W7E"/>
+        <segue reference="rGB-tY-pbu"/>
+        <segue reference="0lu-Fi-mC4"/>
+        <segue reference="niD-LQ-XIx"/>
+        <segue reference="bhx-tW-crx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AchesSymptom" width="586" height="98"/>

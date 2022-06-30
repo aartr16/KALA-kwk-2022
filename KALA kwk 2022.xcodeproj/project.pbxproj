@@ -16,6 +16,7 @@
 		BDD19A7D286B90EF00E6E6C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD19A7B286B90EF00E6E6C1 /* Main.storyboard */; };
 		BDD19A80286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A7E286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld */; };
 		BDD19A85286B90F000E6E6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD19A83286B90F000E6E6C1 /* LaunchScreen.storyboard */; };
+		BDEC342F286E008E00DFBC81 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC342E286E008E00DFBC81 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BDD19A7F286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KALA_kwk_2022.xcdatamodel; sourceTree = "<group>"; };
 		BDD19A84286B90F000E6E6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD19A86286B90F000E6E6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEC342E286E008E00DFBC81 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */,
 				BDD19A79286B90EF00E6E6C1 /* ViewController.swift */,
 				BDD19A7B286B90EF00E6E6C1 /* Main.storyboard */,
+				BDEC342E286E008E00DFBC81 /* NewViewController.swift */,
 				BD4C4506286C9B780013A877 /* FYIViewController.swift */,
 				BDD19A83286B90F000E6E6C1 /* LaunchScreen.storyboard */,
 				BDD19A86286B90F000E6E6C1 /* Info.plist */,
@@ -151,6 +154,7 @@
 				BDD19A80286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld in Sources */,
 				BDD19A7A286B90EF00E6E6C1 /* ViewController.swift in Sources */,
 				BDD19A76286B90EF00E6E6C1 /* AppDelegate.swift in Sources */,
+				BDEC342F286E008E00DFBC81 /* NewViewController.swift in Sources */,
 				BD4C4507286C9B780013A877 /* FYIViewController.swift in Sources */,
 				BDD19A78286B90EF00E6E6C1 /* SceneDelegate.swift in Sources */,
 			);
