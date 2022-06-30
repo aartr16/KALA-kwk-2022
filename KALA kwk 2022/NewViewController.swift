@@ -30,6 +30,9 @@ class NewViewController: UIViewController {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
 
             if let coreDataNotes = try? context.fetch(Notes.fetchRequest()) as? [Notes] {
+                if(coreDataNotes.count == 0) {
+                    return ""
+                }
                 return coreDataNotes[coreDataNotes.count-1].text!
             }
           }
