@@ -3,7 +3,12 @@
     <entity name="Notes" representedClassName="Notes" syncable="YES" codeGenerationType="class">
         <attribute name="text" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="Tracker" representedClassName="Tracker" syncable="YES" codeGenerationType="class">
+        <attribute name="isOnPeriod" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="numDays" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
     <elements>
         <element name="Notes" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="Tracker" positionX="-54" positionY="0" width="128" height="59"/>
     </elements>
 </model>

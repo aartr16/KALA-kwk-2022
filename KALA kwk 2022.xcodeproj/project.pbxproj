@@ -17,6 +17,7 @@
 		BDD19A80286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A7E286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld */; };
 		BDD19A85286B90F000E6E6C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD19A83286B90F000E6E6C1 /* LaunchScreen.storyboard */; };
 		BDEC342F286E008E00DFBC81 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC342E286E008E00DFBC81 /* NewViewController.swift */; };
+		BDEC3431286E0ADE00DFBC81 /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC3430286E0ADE00DFBC81 /* TrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		BDD19A84286B90F000E6E6C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD19A86286B90F000E6E6C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEC342E286E008E00DFBC81 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		BDEC3430286E0ADE00DFBC81 /* TrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				BDD19A86286B90F000E6E6C1 /* Info.plist */,
 				BDD19A7E286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld */,
 				BD5BC8AC286CC8FD006DDC88 /* Assets.xcassets */,
+				BDEC3430286E0ADE00DFBC81 /* TrackerViewController.swift */,
 			);
 			path = "KALA kwk 2022";
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				BDD19A76286B90EF00E6E6C1 /* AppDelegate.swift in Sources */,
 				BDEC342F286E008E00DFBC81 /* NewViewController.swift in Sources */,
 				BD4C4507286C9B780013A877 /* FYIViewController.swift in Sources */,
+				BDEC3431286E0ADE00DFBC81 /* TrackerViewController.swift in Sources */,
 				BDD19A78286B90EF00E6E6C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

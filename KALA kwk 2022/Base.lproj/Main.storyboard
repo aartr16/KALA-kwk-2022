@@ -165,6 +165,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="days" destination="b8L-2M-W6z" id="wh5-9d-IZu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -173,7 +176,7 @@
         <!--View Controller-->
         <scene sceneID="DoR-Dr-Otk">
             <objects>
-                <viewController id="xQa-3l-C8X" customClass="ViewController" customModule="KALA_kwk_2022" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xQa-3l-C8X" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jmf-Mt-D96">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -437,7 +440,7 @@
         <!--View Controller-->
         <scene sceneID="l9C-hc-Vxi">
             <objects>
-                <viewController id="xsf-jH-219" customClass="ViewController" customModule="KALA_kwk_2022" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xsf-jH-219" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hxF-pi-hh3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -559,10 +562,10 @@
             </objects>
             <point key="canvasLocation" x="2715.9420289855075" y="75"/>
         </scene>
-        <!--View Controller-->
+        <!--Tracker View Controller-->
         <scene sceneID="abL-P8-pFU">
             <objects>
-                <viewController id="5Ae-GY-bzD" customClass="ViewController" customModule="KALA_kwk_2022" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5Ae-GY-bzD" customClass="TrackerViewController" customModule="KALA_kwk_2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LhR-VA-CAc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -627,7 +630,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="StartPeriodButton" translatesAutoresizingMaskIntoConstraints="NO" id="a1h-yc-U8f">
-                                <rect key="frame" x="16" y="83" width="388" height="233"/>
+                                <rect key="frame" x="16" y="86" width="388" height="233"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EndPeriodButton" translatesAutoresizingMaskIntoConstraints="NO" id="Ton-qz-l6C">
@@ -663,6 +666,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="+">
                                     <fontDescription key="titleFontDescription" name="Calistoga-Regular" family="Calistoga" pointSize="50"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="plus:" destination="5Ae-GY-bzD" eventType="touchUpInside" id="iAB-71-zGw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ka2-z0-ASy">
                                 <rect key="frame" x="45" y="439" width="49" height="79"/>
@@ -672,6 +678,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="-">
                                     <fontDescription key="titleFontDescription" name="Calistoga-Regular" family="Calistoga" pointSize="50"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="minus:" destination="5Ae-GY-bzD" eventType="touchUpInside" id="6gE-HY-a18"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="23F-Bv-3cZ">
                                 <rect key="frame" x="280" y="807" width="114" height="78"/>
@@ -700,10 +709,32 @@
                                     <segue destination="xQa-3l-C8X" kind="presentation" modalPresentationStyle="fullScreen" id="cuY-AO-LhQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdg-K8-ncx">
+                                <rect key="frame" x="20" y="170" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="startPeriod:" destination="5Ae-GY-bzD" eventType="touchUpInside" id="64b-wX-lZs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTM-bx-tpI">
+                                <rect key="frame" x="20" y="681" width="374" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="done:" destination="5Ae-GY-bzD" eventType="touchUpInside" id="HU5-Bb-Cgf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Rd3-Uk-Jmu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="infoLabel" destination="xoS-pj-vZ6" id="4xU-yS-k2R"/>
+                        <outlet property="numDays" destination="mZc-Rk-Bef" id="Wkl-Zb-dqE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hni-Ei-44I" sceneMemberID="firstResponder"/>
             </objects>
@@ -711,10 +742,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rGB-tY-pbu"/>
-        <segue reference="0lu-Fi-mC4"/>
-        <segue reference="niD-LQ-XIx"/>
-        <segue reference="bhx-tW-crx"/>
+        <segue reference="AvY-M2-fdq"/>
+        <segue reference="Hx0-lN-DM8"/>
+        <segue reference="2km-Dx-7ud"/>
+        <segue reference="ONu-s2-nbR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AchesSymptom" width="586" height="98"/>
