@@ -10,6 +10,7 @@
 		BD4C4507286C9B780013A877 /* FYIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C4506286C9B780013A877 /* FYIViewController.swift */; };
 		BD5BC8AB286CBE87006DDC88 /* Calistoga-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD5BC8AA286CBE87006DDC88 /* Calistoga-Regular.ttf */; };
 		BD5BC8AD286CC8FD006DDC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5BC8AC286CC8FD006DDC88 /* Assets.xcassets */; };
+		BDA78DB9286F400300A081CB /* SymptomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA78DB8286F400300A081CB /* SymptomViewController.swift */; };
 		BDD19A76286B90EF00E6E6C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A75286B90EF00E6E6C1 /* AppDelegate.swift */; };
 		BDD19A78286B90EF00E6E6C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */; };
 		BDD19A7A286B90EF00E6E6C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD19A79286B90EF00E6E6C1 /* ViewController.swift */; };
@@ -24,6 +25,8 @@
 		BD4C4506286C9B780013A877 /* FYIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FYIViewController.swift; sourceTree = "<group>"; };
 		BD5BC8AA286CBE87006DDC88 /* Calistoga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Calistoga-Regular.ttf"; path = "../../Downloads/Calistoga/Calistoga-Regular.ttf"; sourceTree = "<group>"; };
 		BD5BC8AC286CC8FD006DDC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDA78DB7286F3D1500A081CB /* Calistoga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calistoga-Regular.ttf"; sourceTree = "<group>"; };
+		BDA78DB8286F400300A081CB /* SymptomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomViewController.swift; sourceTree = "<group>"; };
 		BDD19A72286B90EF00E6E6C1 /* KALA kwk 2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KALA kwk 2022.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDD19A75286B90EF00E6E6C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,17 +70,19 @@
 		BDD19A74286B90EF00E6E6C1 /* KALA kwk 2022 */ = {
 			isa = PBXGroup;
 			children = (
+				BDA78DB7286F3D1500A081CB /* Calistoga-Regular.ttf */,
+				BDA78DB8286F400300A081CB /* SymptomViewController.swift */,
 				BDD19A75286B90EF00E6E6C1 /* AppDelegate.swift */,
 				BDD19A77286B90EF00E6E6C1 /* SceneDelegate.swift */,
 				BDD19A79286B90EF00E6E6C1 /* ViewController.swift */,
 				BDD19A7B286B90EF00E6E6C1 /* Main.storyboard */,
 				BDEC342E286E008E00DFBC81 /* NewViewController.swift */,
 				BD4C4506286C9B780013A877 /* FYIViewController.swift */,
+				BDEC3430286E0ADE00DFBC81 /* TrackerViewController.swift */,
 				BDD19A83286B90F000E6E6C1 /* LaunchScreen.storyboard */,
 				BDD19A86286B90F000E6E6C1 /* Info.plist */,
 				BDD19A7E286B90EF00E6E6C1 /* KALA_kwk_2022.xcdatamodeld */,
 				BD5BC8AC286CC8FD006DDC88 /* Assets.xcassets */,
-				BDEC3430286E0ADE00DFBC81 /* TrackerViewController.swift */,
 			);
 			path = "KALA kwk 2022";
 			sourceTree = "<group>";
@@ -117,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BDD19A6D286B90EF00E6E6C1 /* Build configuration list for PBXProject "KALA kwk 2022" */;
+			buildConfigurationList = BDD19A6D286B90EF00E6E6C1 /* Build configuration list for PBXProject "KALA kwk 2022 KALA PROJECT!!!!!" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -160,6 +165,7 @@
 				BDEC342F286E008E00DFBC81 /* NewViewController.swift in Sources */,
 				BD4C4507286C9B780013A877 /* FYIViewController.swift in Sources */,
 				BDEC3431286E0ADE00DFBC81 /* TrackerViewController.swift in Sources */,
+				BDA78DB9286F400300A081CB /* SymptomViewController.swift in Sources */,
 				BDD19A78286B90EF00E6E6C1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BDD19A6D286B90EF00E6E6C1 /* Build configuration list for PBXProject "KALA kwk 2022" */ = {
+		BDD19A6D286B90EF00E6E6C1 /* Build configuration list for PBXProject "KALA kwk 2022 KALA PROJECT!!!!!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BDD19A87286B90F000E6E6C1 /* Debug */,
