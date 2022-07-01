@@ -70,7 +70,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=" "/>
                                 <connections>
-                                    <segue destination="xsf-jH-219" kind="presentation" id="KIs-PP-mmc"/>
+                                    <segue destination="xsf-jH-219" kind="presentation" modalPresentationStyle="fullScreen" id="KIs-PP-mmc"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainReadArticleButton" translatesAutoresizingMaskIntoConstraints="NO" id="eGc-VI-AUu">
@@ -171,6 +171,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title=""/>
                                 <connections>
                                     <segue destination="5Ae-GY-bzD" kind="presentation" modalPresentationStyle="fullScreen" id="ElC-Gf-u4E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xa-y1-gyC">
+                                <rect key="frame" x="17" y="666" width="383" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                <connections>
+                                    <action selector="periodEducation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bje-fn-EFw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -878,9 +887,9 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="PY8-3k-y41"/>
-        <segue reference="OF7-px-zte"/>
+        <segue reference="KIs-PP-mmc"/>
         <segue reference="Y6J-Jm-PO1"/>
-        <segue reference="bhx-tW-crx"/>
+        <segue reference="ONu-s2-nbR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="AchesSymptom" width="586" height="98"/>

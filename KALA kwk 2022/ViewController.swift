@@ -7,7 +7,9 @@
 // I WAS ALSO HERE :)- ANAIYAAA
 import UIKit
 
-class ViewController: UIViewController {
+import SafariServices
+
+class ViewController: UIViewController, SFSafariViewControllerDelegate {
     @IBOutlet weak var days: UILabel!
     
     override func viewDidLoad() {
@@ -15,6 +17,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         days.text = String(getDays())
     }
+    
+    @IBAction func periodEducation(_ sender: Any) {
+    let safariVC = SFSafariViewController(url: NSURL(string: "https://period-action.org/education")! as URL)
+    self.present(safariVC, animated: true, completion: nil)
+    safariVC.delegate = self
+    }
+    func safariViewControllerDidFinish(_ controller: SFSafariViewController) {
+              controller.dismiss(animated: true, completion: nil)
+          }
+
     
     override func viewWillAppear(_ animated: Bool) {
         days.text = String(getDays())

@@ -18,12 +18,12 @@ class SymptomViewController: UIViewController {
     var crampSuggest : [String] = ["Use a heating pad!", "Take a hot bath!", "Exercise for 30 minutes!"]
   
      
-     var migraineSuggest : [String] = ["Take some ibuprofen!", "Try to spend some time in the dark for light sensitivity!", "Take a nap!"]
+     var migraineSuggest : [String] = ["Take some ibuprofen!", "Spend some time in the dark!", "Take a nap!"]
      
      var achesSuggest : [String] = ["Try some yoga!","Use a heating pad!",
-   "Stay hydrated with water or drinks with electrolytes!"]
+   "Drink some water!"]
      
-     var acneSuggest : [String] = ["Try tea tree oil, witch hazel, aloe vera, or turmeric masks!", "Cut out junk food from your diet!", "Steam your face to get rid of toxins!"]
+     var acneSuggest : [String] = ["Try witch hazel or aloe vera!", "Cut out junk food from your diet!", "Steam your face to get rid of toxins!"]
     
     @IBOutlet weak var crampShowSug: UILabel!
     
